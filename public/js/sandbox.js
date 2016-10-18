@@ -6,7 +6,7 @@ console.log( 'game ready' );
 
 function counter ( amount ) {
 
-	if ( is NaN( amount ) == true ) {
+	if ( isNaN( amount ) == true ) {
 
 		console.log("please type a number!" );
 
@@ -28,3 +28,5 @@ function counter ( amount ) {
 		console.log( 'counted to:' + i );
 
 	} // end of for loop
+
+}
